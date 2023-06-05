@@ -1,0 +1,105 @@
+.lost-container{
+    /* height: 350px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 30px;
+    border-top:1px solid lightgray ;
+}
+
+.lost-container h4 {
+    color: #ffb300;
+    margin-bottom: 5px;
+}
+.lost-container p{
+    color: gray;
+}
+
+.img-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+}
+.img-container div{
+    height:300px ;
+}
+.img-container img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+ 
+.img-container img::before{
+    content: "remember when did you lose it";
+    position: absolute;
+    left: 20%;
+}
+
+.lost-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px ;
+    background-color:black;
+    border-radius: 30px;
+    color:  #ffb300;
+    width: 150px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.lost-btn a{
+    text-decoration: none;
+    color: #ffb300;
+}
+.lost-btn:hover{ 
+    background-color: #ffb300;
+}
+.lost-btn:hover a{ 
+    color: black;
+}
+
+
+@media(max-width:1024px) {
+    .img-container{
+        padding-bottom: 10px;
+    }
+    .img-container img{
+        height: 200px;
+        width: 200px;
+    }
+    .img-container div{
+        height:260px ;
+    }
+    
+}
+@media(max-width:750px) {
+    .img-container{
+        grid-template-columns: 1fr;
+        margin-bottom: 10px;
+    }
+    .img-container img{
+        height: 250px;
+        width: 250px;
+    }
+    .img-container div{
+        height:240px ;
+    }
+}
+@media(max-width:450px) {
+    .img-container{
+        gap: 10px;
+    }
+    .img-container img{
+        height: 190px;
+        width: 190px;
+    }
+    
+}

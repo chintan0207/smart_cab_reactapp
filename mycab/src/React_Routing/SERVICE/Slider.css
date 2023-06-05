@@ -1,0 +1,86 @@
+import
+
+.slides{
+    
+    display: flex;
+    height: 600px;
+    border: 1px solid blueviolet;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    
+}
+
+
+.slides img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 10px;
+
+    
+}
+.slides .p1{
+   background-color:rgb(90, 72, 72) ;
+}
+.slides .p2{
+   background-color:rgb(206, 206, 127);
+}
+.slides .p3{
+   background-color:lightblue ;
+}
+.slides .p4{
+   background-color:rgb(122, 141, 125) ;
+}
+.slides .p5{
+   background-color:rgb(108, 236, 166) ;
+}
+.slides .p6{
+   background-color:rgb(117, 121, 119) ;
+}
+.slides .p7{
+   background-color:rgb(156, 141, 160) ;
+}
+
+
+.slides div{
+    flex: 3;
+    padding: 10px;
+    background-color: #a6a6eae8;
+   /* height: 500px; */
+   /* border: 1px solid red; */
+    
+}
+
+@media screen and (max-width: 1024px) {
+ .slides img {
+    width: 255px;
+ }
+
+} 
+@media screen and (max-width: 920px) {
+    .slides img {
+       width: 200px;
+    }
+   
+   } 
+   @media screen and (max-width: 785px) {
+    .slides img {
+       width: 150px;
+       height: 170px;
+    }
+   
+   } 
+   @media screen and (max-width: 620px) {
+    .slides img {
+       width: 100px;
+       height: 120px;
+    }
+   
+   } @media screen and (max-width: 468px) {
+    .slides img {
+       width: 93px;
+       height: 100px;
+    }
+   
+   } 

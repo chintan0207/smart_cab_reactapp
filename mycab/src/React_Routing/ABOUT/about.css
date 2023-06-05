@@ -1,0 +1,375 @@
+
+/* .................................About us........................ */
+
+.a1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgba(0,0,0,0.7) url('../../../public/car/taxi1.jpg') no-repeat center ;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 500px;
+    
+}
+
+
+.about-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgba(0,0,0,.7) url('../../../public/forslider/s4.jpg') no-repeat center ;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 300px;
+}
+/* ........................aboutus start..................................................... */
+.aboutus{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 20px;
+    /* height: 400px; */
+    padding: 30px 30px;
+    justify-content: flex-start;
+    border-bottom: 2px solid lightgray;
+    background-color: #F9F9F9;
+}
+.aboutus .aleft{
+    justify-self: center;
+    padding-top: 10px;
+    /* align-self: center; */
+}
+
+.aleft h1{
+    font-size: 55px;
+    font-weight: 700;
+    text-align:start;
+    padding-right: 60px;
+    margin: 10px 0px 30px 0px;
+}
+
+
+.aboutus .p1{
+    line-height: 35px;
+    color: gray;
+    font-size: 20px;
+}
+.aboutus .p2{
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+    color: gray;
+}
+
+
+.morebtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 15px ;
+    background-color:black;
+    border-radius: 30px;
+    color:  #ffb300;
+    width: 200px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.morebtn:hover{
+    background-color:  #ffb300;
+    color: white;
+}
+
+.aboutus .aright{
+    justify-self: center;
+
+}
+
+.aboutus img{
+    border-radius: 10px;
+    width: 480px;
+    height: 480px;
+
+}
+
+@media (max-width:1180px) {
+
+    .aboutus{   
+       grid-template-columns: 1fr ;
+    }
+    .aboutus .p1{
+        line-height: 20x;
+        color: gray;
+        font-size: 20px;
+    }
+    .aleft h1{
+        font-size: 55px;
+        font-weight: 700;
+        text-align: start;
+        padding-right: 60px;
+        margin: 10px 0px 10px 0px;
+    }
+    .aboutus .p2{
+        font-size: 20px;
+        line-height: 25px;
+        text-align: justify;
+        color: gray;
+    }
+    
+}
+@media (max-width:650px) {
+
+    .aboutus img{
+        width: 280px;
+        height: 280px;
+    }
+    .aboutus h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:450px) {
+
+    .aboutus{
+        padding: 20px;
+    }
+    .aboutus img{
+        width: 250px;
+        height: 250px;
+    }
+    .aboutus h1{
+        font-size: 25px;
+    }
+    .aboutus .p1, .aboutus .p2{
+        font-size: 17px;
+    }
+    .morebtn{
+        width: 150px;
+        padding: 10px 10px;
+    }
+}
+/* ............................aboutus2............................................................. */
+
+/* .........................about-2 start................................................ */
+.about-2{
+    /* height: 600px; */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid lightgray;
+    background-color: #F9F9F9;
+    
+}
+.about-2 p{
+    font-size: 18px;
+    color: gray;
+}
+
+.dteam{
+    /* height: 400px; */
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    column-gap: 40px;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+    /* border: 1px solid black; */
+
+}
+.dteam-member{
+    background-color: white;
+    width: 250px;
+    /* height: 320px; */
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 7px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .dteam-member:hover{
+    transform: scale(1.1);
+    transition: 1s;
+} */
+
+
+.dteam-member img{
+    width: 100%;
+    height: 230px;
+    border-radius: 5px;
+}
+.dteam-member h5{
+    margin: 7px 0px;
+}
+
+.dteam .common-icon{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    margin-bottom: 5px;
+
+}
+.dteam .common-i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffb300;
+    color: black;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+.dteam .common-i:hover{
+    background-color:black;
+    color: #ffb300;
+}
+
+
+@media (max-width:1180px) {
+
+    .dteam{
+    
+    grid-template-columns: 1fr 1fr 1fr ;
+
+    }
+    
+}
+
+@media (max-width:890px) {
+
+    .dteam{
+
+         grid-template-columns: 1fr 1fr  ;
+    }
+    
+    .dteam-member{
+        width: 285px;
+    }
+
+    
+    
+}
+
+@media (max-width:675px) {
+
+    .dteam{
+
+         grid-template-columns: 1fr ;
+    }
+
+    .dteam-member h5{
+        font-size: 18px;
+    }
+    .dteam-member h6{
+        font-size: 13px;
+    }
+    
+    .dteam-member{
+        width: 250px;
+    }
+
+    
+}
+
+
+
+/* ......................about-3 start.................................................. */
+
+.about-3{
+    /* height: 500x; */
+    /* padding: 60px; */
+    background-color: #F9F9F9;
+}
+
+.about-3sub{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: white;
+    background: rgba(0,0,0,.9) url('../../../public/scard/formbackground.png') no-repeat center ;
+    background-size: cover;
+    background-blend-mode: darken;
+    /* height: 300px; */
+    /* border-radius: 10px; */
+    flex-wrap: wrap;
+    padding: 60px 10px;
+
+}
+.about-item-1, .about-item-2, .about-item-3, .about-item-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-item-1 .about-icons{
+    margin-bottom:20px ;
+    padding: 10px;
+    background-color: #ffb300;
+    color: black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.about-item-2 .about-icons{
+    margin-bottom:20px ;
+    padding: 10px;
+    background-color: #ffb300;
+    color: black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.about-item-3 .about-icons{
+    margin-bottom:20px ;
+    padding: 10px;
+    background-color: #ffb300;
+    color: black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.about-item-4 .about-icons{
+    margin-bottom:20px ;
+    padding: 10px;
+    background-color: #ffb300;
+    color: black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+
+@media (max-width:675px) {
+
+    .about-3{
+        padding: 0px;
+    }
+    
+
+}
+@media (max-width:450px) {
+
+    .about-3sub{
+        gap:50px
+    }
+    
+
+}
+
+
+

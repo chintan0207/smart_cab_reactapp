@@ -1,0 +1,136 @@
+.ourtaxi-container{
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid lightgray;
+    /* background: rgba(0,0,0,.7) url('../../../public/forslider/long-s12.jpg') no-repeat center ;
+    background-size: cover;
+    background-blend-mode: darken; */
+    color: black;
+    background-color: #F9F9F9;
+}
+
+.ourtaxi-container h4{
+     color: #ffb300;
+}
+
+
+
+
+.ourtaxi-btn{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.ourtaxi-btn .cbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px ;
+    background-color:black;
+    border-radius: 30px;
+    color:#ffb300;
+    width: 165px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+ 
+
+.taxi-type{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    padding: 30px 10px;
+    /* height: 300px; */
+    /* border: 1px solid black; */
+}
+
+
+.taxi-type .onetaxi-type{
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    height: 300px;
+    padding: 10px;
+    background-color: white;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    width:250px ;
+    text-align: start;
+    color: black;
+
+}
+
+.onetaxi-type img{
+    /* padding: 15px; */
+    width: 100%;
+}
+
+.rate{
+    background-color: #ffb300;
+    padding: 10px 10px;
+    border-radius: 25px;
+    width: 100%;
+}
+
+
+
+
+@media(max-width:1200px){
+    .taxi-type .onetaxi-type{
+        width: 200px;
+        height: 250px;
+    }
+    
+}
+@media(max-width:980px){
+    .taxi-type .onetaxi-type{
+        width: 250px;
+        height: 300px;
+    }
+    .taxi-type{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        row-gap: 30px;
+        column-gap: 20px;
+    }
+}
+
+@media(max-width:750px){
+     .ourtaxi-btn{
+      display: none;
+    }
+    .taxi-type .onetaxi-type{
+        width: 200px;
+        height: 250px;
+    }
+    
+}
+
+@media(max-width:550px){
+    
+   .taxi-type {
+    display: grid;
+    grid-template-columns: 1fr;
+   
+   }
+   .taxi-type .onetaxi-type{
+    width: 250px;
+    height: 300px;
+}
+ 
+}
+
+@media(max-width:350px){
+
+    .taxi-type .onetaxi-type{
+        width: 200px;
+        height: 250px;
+    }
+     
+    
+}

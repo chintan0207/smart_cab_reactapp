@@ -1,0 +1,169 @@
+.aboutus2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 20px;
+    padding: 30px 30px;
+    justify-content: start;
+    border-bottom: 2px solid lightgray;
+    background-color: #F9F9F9;
+}
+
+.aboutus2 .a2left{
+    justify-self: center;
+    align-self: center;
+}
+
+.aboutus2 .a2right{
+    justify-self: center;
+    padding-top: 5px;
+}
+
+.a2right{
+    justify-self: center;
+
+}
+
+.aboutus2 .t{ 
+    width: 550px;
+    height: 350px;
+
+}
+
+.a2right h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: start;
+    padding-right: 60px;
+    margin: 10px 0px 15px 0px;
+}
+
+.aboutus2 .p3{
+    line-height: 35px;
+    color:#ffb300;
+    font-size: 20px;
+    font-weight: 600;
+}
+.aboutus2 .p4{
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+    color: gray;
+}
+
+.morebtn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 12px ;
+    background-color:black;
+    border-radius: 30px;
+    color:  #ffb300;
+    width: 180px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.morebtn2:hover {
+    background-color:  #ffb300;
+    color: black;
+}
+.morebtn2:hover a{
+    color: black;
+}
+.morebtn2 a{
+    color: #ffb300;
+    text-decoration: none;
+}
+
+
+
+
+
+@media (max-width:1180px) {
+    .aboutus2{
+        grid-template-columns: 1fr 1fr;
+    }
+    .aboutus2 .t{ 
+        width: 450px;
+        height: 300px;
+    }
+    .a2right h2{
+        font-size: 30px;
+        font-weight: 700;
+        text-align: start;
+        padding-right: 60px;
+        margin: 10px 0px 15px 0px;
+    }
+    .aboutus2 .p4{
+        font-size: 18px;
+        line-height: 30px;
+       
+    }
+    
+}
+
+@media (max-width:1024px) {
+
+    .aboutus2{
+        grid-template-columns: 1fr ;
+    }
+    .morebtn2{
+        width: 150px;
+        padding: 10px 10px;
+    }
+
+}
+
+@media (max-width:550px) {
+
+    .aboutus2{
+        padding: 25px 20px;
+        gap: 0px;
+    }
+
+    .aboutus2 .t{ 
+        width: 350px;
+        height: 250px;
+    }
+    .a2right h2{
+        font-size: 30px;
+        font-weight: 600;
+        text-align: start;
+        padding-right: 40px;
+        margin: 0px 0px 10px 0px;
+    }
+    .aboutus2 .p4{
+        font-size: 15px;
+        line-height: 25px;
+        
+    }
+    .aboutus2 .p3{
+        font-size: 16px;
+    }
+    .morebtn2{
+        margin-top: 20px;
+        width: 150px;
+        padding: 7px 7px;
+        font-weight: 500;
+    }
+
+}
+
+@media (max-width:450px) {
+    .aboutus2 .t{ 
+        width: 250px;
+        height: 160px;
+    }
+    .aboutus2 .p4{
+        font-size: 17px;
+        line-height: 22px;
+        
+    }
+    .aboutus2 h2{
+        font-size: 25px;
+        padding-right: 10px;
+        
+
+    }
+
+}

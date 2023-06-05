@@ -1,0 +1,199 @@
+
+/* ........................................Contact us................................. */
+
+
+.c1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgba(0,0,0,.7) url('../../../public/car/taxi1.jpg') no-repeat center ;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 300px;
+    
+}
+
+.c3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30px; */
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 50px;
+    
+    
+    
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+}
+
+.c2{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    min-height:250px ;
+    /* border: 1px solid black; */
+    width: 85%;
+    /* flex-wrap: wrap; */
+    gap: 30px;
+    padding-top:20px;
+}
+.c2 .c2-cards{
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+    /* width: 100%; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+ }
+ .c-iconbox{
+    background-color:#fdae00 ;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+.c-icon{
+    position: absolute;
+    color: white;
+}
+
+.c3 .c-card{
+    height:85% ;
+    width: 85%;
+    padding: 15px;
+    margin: 15px;
+    /* border: 1px solid black; */
+    border-radius: 7px;
+    display: flex;
+    gap: 10px;
+    min-height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+
+.c-left{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex: 5;
+
+    /* border: 1px solid black; */
+
+}
+.cimg{
+    height: 400px;
+    width: 400px;
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.5) */
+    border-radius: 50% 50% 50% 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+
+
+
+}
+.c-right{
+    flex: 7;
+    padding: 0px 12px;
+    /* border: 1px solid black; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    
+}
+.cbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 20px 0px;
+}
+.cbox .cboxfield{
+    width: 100%;
+    border-radius: 8px;
+}
+.cbox2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    /* padding: 20px 0px; */
+
+}
+
+
+.cboxfield2, .cboxfield3{
+   width: 100%;
+}
+.cboxfield3{
+    padding: 50px;
+ }
+
+ .cbtn{
+    align-self: flex-start;
+ }
+
+/* ........................for the 4cards................ */
+
+@media(max-width: 950px){
+    .c2{
+        flex-wrap: wrap;
+    }
+    
+}
+@media(max-width: 650px){
+    .c2{
+    
+    }
+    
+}
+
+/* .................................................................. */
+
+ @media(max-width: 1024px){
+    .c-card{
+        flex-direction: column;
+        padding: 0px;
+    }
+}
+
+
+@media(max-width: 650px){
+    .cimg{
+        height: 300px;
+        width: 300px;
+    }
+    .cbox{
+        flex-direction: column;
+    }
+}
+@media(max-width: 470px){
+    .cimg{
+        height: 200px;
+        width: 200px;
+    }
+    .c2{
+    
+    }
+    
+}

@@ -1,0 +1,242 @@
+.common-main{
+   
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-top:10px solid black; */
+    border-top:10px solid #ffb300;
+    background-color: #F9F9F9;
+
+}
+.common-container a{
+    text-decoration: none;
+    color: black;
+}
+
+.common-container{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    /* border: 1px solid black; */
+    height: 80%;
+    width: 90%;
+    /* flex-wrap: wrap; */
+     
+}
+.common-1, .common-2, .common-3, .common-4{
+    /* flex: 3; */
+     width: 25%;
+    /* border: 1px solid black; */
+    border-bottom: .5px solid lightgray;
+}
+
+.common-container h4, .common-container h5{
+    margin-bottom: 30px;
+}
+
+.common-1 h5 span{
+    padding: 7px;
+    background-color: #ffb300;
+    border-radius: 65%;
+    color: black;
+}
+.common-1 h5{
+    padding:0px;
+}
+
+.common-1 p{
+    padding-right: 55px ;
+    line-height: 30px;
+}
+
+.common-1 .bookbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px ;
+    background-color: #ffb300;
+    border-radius: 25px;
+    color: black;
+    width: 125px;
+    margin-bottom: 20px;
+}
+
+/* .common-1 .bookbtn:hover{
+    background-color: black;
+    color: white;
+} */
+
+.common-container p{
+    margin-bottom: 18px;
+    font-size: 19px;
+
+}
+
+.common-icon{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+.common-i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #ffb300;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+.common-i:hover{
+    background-color:#ffb300;
+    color: black;
+}
+/* ........................................................ */
+
+.running-taxi {
+    background-color: #F9F9F9;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    bottom:-1;
+    z-index: 2;
+}
+.running-taxi .taxi-1 {
+    background-image: url(../../../public/Runningcab/truck-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    position: absolute;
+    width: 110px;
+    height: 40px;
+    right: 0;
+    bottom: 0;
+    animation: running-anim 8s linear infinite;
+}
+.running-taxi .taxi-2 {
+    background-image: url(../../../public/Runningcab/truck-2.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    position: absolute;
+    width: 110px;
+    height: 40px;
+    right: 0;
+    bottom: 0;
+    animation: running-anim 5s linear infinite;
+}
+.running-taxi .taxi-3 {
+    background-image: url(../../../public/Runningcab/truck-3.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    position: absolute;
+    width: 110px;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    animation: running-anim2 10s linear infinite;
+}
+@keyframes running-anim {
+    from{
+      right:0px;
+    }
+    to{
+      right: 100%;
+    }
+    
+}
+
+@keyframes running-anim2 {
+    from{
+      left:0px;
+    }
+    to{
+      left: 100%;
+    }
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:  1px solid black; */
+    padding: 20px ;
+    /* height: 35px; */
+    width: 100%;
+    background-color: #b5c2c13d;
+    color: black;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:1030px) {
+
+    .common-container{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 20px;
+    }
+    .common-1, .common-2, .common-3, .common-4{
+         width: 40%;
+         padding-left: 60px;
+    }
+}
+
+
+
+@media screen and (max-width:620px) {
+
+    .common-container{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 20px;
+    }
+    .common-1, .common-2, .common-3, .common-4{
+         width: 40%;
+         padding-left: 30px;
+    }
+}
+
+@media screen and (max-width:530px) {
+
+    .common-main{
+        padding-top: 30px;
+    }
+    .common-container{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 20px;
+    }
+    .common-1, .common-2, .common-3, .common-4{
+         width: 100%;
+         padding-left: 100px;
+    }
+    .common-container h5{
+        margin-bottom:15px ;
+        font-size: 20px;
+    }
+    .common-container p{
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width:400px) {
+
+    .common-1, .common-2, .common-3, .common-4{
+        padding-left: 60px;
+    }
+
+}

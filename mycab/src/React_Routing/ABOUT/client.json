@@ -1,0 +1,66 @@
+[
+    {
+        "id":1,
+        "clientimg":"./drivers/cus1.jpg",
+        "clientname":"Meet",
+        "clientp":"Our flight was delayed by two hours, so we arrived at seville airport at 2am I emailed the support address, and received a prompt reply saying the agent would update my driver."
+    },
+    
+    {
+        "id":2,
+        "clientimg":"./drivers/cus2.jpg",
+        "clientname":"smriti",
+        "clientp":"Excellent service from booking through to pick up and drop off to the airport. Internet booking was easy, questions we're answered by email promptly."
+    },
+    
+    {
+        "id":3,
+        "clientimg":"./drivers/cus3.jpg",
+        "clientname":"Roy ",
+        "clientp":"Everything went perfectly! Incredibly punctual, friendly drivers, and a very fast customer service that answered my questions within minutes the night before my return trip."
+
+    },
+    
+    {
+        "id":4,
+        "clientimg":"./drivers/cus4.jpg",
+        "clientname":"Subhaman ",
+        "clientp":"Fantastic service. Driver on time despite very very tricky hotel location. Would defiantly recommend 100%."
+
+    },
+    {
+        "id":5,
+        "clientimg":"./drivers/cus5.jpg",
+        "clientname":"Sara ",
+        "clientp":"The service was excellent - thank you. He introduced himself, was very polite and friendly and drove me to my hotel with no delay. I recommend this service"
+
+    },
+    
+    {
+        "id":6,
+        "clientimg":"./drivers/cus6.jpg",
+        "clientname":"Rahul",
+        "clientp":"Great service. We arrived late at night and wanted to make sure we had a cab to our hotel. The driver arrived on time and was courteous. Very efficient."
+
+    },
+    
+    {
+        "id":7,
+        "clientimg":"./drivers/cus7.jpg",
+        "clientname":"Yash",
+        "clientp":"This service was wonderful, such kind and gracious drivers, saved time and money using this service"
+
+    },
+    
+    {
+        "id":8,
+        "clientimg":"./drivers/cus8.jpg",
+        "clientname":"Khyati",
+        "clientp":"I use this service to get my visitors save to the airport and back. Very convenient and I am super happy with the service"
+
+    }
+
+
+
+  
+]

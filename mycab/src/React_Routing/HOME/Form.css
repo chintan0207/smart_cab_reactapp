@@ -1,0 +1,274 @@
+.main{
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.main h1{
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+.f1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    
+    
+}
+/* ..................................................................... */
+.maint{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.tfield{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+    padding: 35px 0px 0px 0px;
+    margin: 0px;
+    width: 70%;
+    
+    
+}
+.maint .alert{
+   align-self: flex-start;
+   padding: 5px;
+}
+
+.tfield label{
+    font-size: 14px;
+    margin: 0px;
+}
+
+.f1 .textf{
+    
+    margin-top: 15px;
+    width: 100%;
+    
+}
+
+/* .............................................................................. */
+.mainr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.rfield{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0px;
+    width: 90%;
+}
+.rfield  .radiof{
+   margin: 0px;
+   padding: 0px;
+
+}
+.rfield span{
+    font-size: 15px;
+}
+
+/* ......................................................................... */
+
+.pdpoint{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    
+}
+.selectf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.select{
+    height: 45px;
+    width: 70%;
+}
+
+.pickupp{
+    display: flex;
+    gap: 10px;
+
+}
+ 
+.dropupp{
+    display: flex;
+    gap: 10px;
+}
+/* ........................................................................... */
+.dt{
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: center;
+    padding: 10px 0px;
+    gap: 25px;
+    width:70%;
+}
+
+
+/* ..................................................................................... */
+
+
+table{
+    width: 70%;
+   
+}
+
+table tr{
+    width: 100%;
+    
+}
+
+table td{
+    width: 50%;
+
+}
+.btn {
+    padding: 7px 20px;
+}
+
+.alert{
+    margin: 0px;
+    padding: 5px;
+    color: red;
+    /* align-self: flex-start; */
+    width: 70%;
+}
+ .maint .alert, .dp1 .alert{
+    width: 100%;
+}
+/* .................................................................................. */
+
+
+
+
+
+@media screen and (max-width: 850px) {
+    .f1{
+        width: 80%;
+    }
+   
+   }
+   
+   
+@media screen and (max-width: 450px) {
+    .tfield{
+        width: 80%;
+    }
+   
+   } 
+
+@media screen and (max-width: 600px) {
+
+    .staypass{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+  
+    
+}
+
+
+
+
+
+/* ....................................................................... */
+
+
+.dp1{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    /* gap: 10px; */
+}
+.dp1 .box3{
+    width: 100%;
+}
+.staypass{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 70%;
+    padding: 10px 0px;
+}
+
+.staypass .box{
+    width: 100%;
+}
+
+
+/* ................................................................. */
+
+.input{
+    height: 30px;
+    width: 100%;
+    /* border: 1px solid black; */
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    display: flex;
+      
+}
+
+.input span{
+    width: 60%;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.input .btn1, .btn2{
+    padding: 0px;
+    height: 100%;
+    width: 20%;
+    background-color: lightgray;
+    font-size: 25px;
+    border: none;
+
+}
+
+.noluggage{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .noluggage .input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 45px;
+
+}
+.noluggage .no1{
+    /* text-align: center; */
+    width: 40%;
+}

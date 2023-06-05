@@ -1,0 +1,213 @@
+
+/* .........................services......................................... */
+.service{
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    background-color:#F9F9F9 ;
+}
+.service p{
+    color: gray;
+    font-size: 20px;
+}
+.service h4{
+ color: #ffb300;
+}
+.servicecard-container h4{
+    color: black;
+}
+
+.service-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgba(0,0,0,.7) url('../../../public/forslider/s4.jpg') no-repeat center ;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 300px;
+}
+
+.servicebox{
+    /* background-image: linear-gradient(to top, #a6a6eae8, rgba(4, 6, 43, 0),#a6a6eae8);; */
+    background-color: #F9F9F9;
+  }
+
+  .servicebox h3{
+     text-align: center;
+  }
+
+.box h3{
+   text-align: center;
+   color: rgb(68, 64, 64);
+}
+  .heading{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+
+}
+
+.gridbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    text-align:justify;
+    justify-content: center;
+    align-content: space-around;
+    text-align: center;
+}
+.bbtn{
+    display: flex;
+    justify-content: center;
+
+}
+
+.addtobtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 0px;
+    margin-top: 5px;
+    width: 90%;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    border: black;
+    opacity: 1;
+
+}
+.addtobtn:hover{
+    opacity: .8;
+}
+.a{
+    padding: 15px;
+}
+/* .card-size:hover{
+    transform: scale(1.1);
+    transition: 1s;
+} */
+
+@media(max-width: 1070px){
+    .gridbox{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(max-width: 810px){
+    .gridbox{
+        grid-template-columns: 1fr 1fr ;
+
+    }
+@media(max-width: 550px){
+        .gridbox{
+        
+            grid-template-columns: 1fr;
+            padding:0px 10%;
+           
+        }   
+
+ @media(max-width: 450px){
+            .gridbox{
+            
+                grid-template-columns: 1fr;
+                padding:0px 2%;
+               
+            }   
+    
+
+}
+}
+}
+/* ................................our service..................................... */
+
+.servicecard-container{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    text-align: justify;
+    /* column-gap: 20px; */
+}
+.servicecard-container p{
+    font-size: 18px;
+}
+.service-card{
+   justify-self: center;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 120px;
+
+}
+
+
+.service-card img{
+    width: 100%;
+    border-radius: 25px;
+    margin-top: -120px;
+    margin-bottom: 15px;
+}
+.service-card h4{
+    margin-bottom: 10px;
+}
+.s-readmore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 11px ;
+    background-color:black;
+    border-radius: 30px;
+    color:  #ffb300;
+    width: 115px;
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+@media(max-width: 1220px){
+    .service-card{
+        width: 280px;
+    }
+}
+@media(max-width: 1024px){
+    .service-card{
+        width: 350px;
+    }
+    .servicecard-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 830px){
+    .service-card{
+        width: 280px;
+    }
+}
+
+@media(max-width: 680px){
+    .service-card{
+        width: 350px;
+    }
+    .servicecard-container{
+        grid-template-columns: 1fr;
+    }
+    .servicecard-container p{
+        font-size: 15px;
+
+    }
+}
+
+@media(max-width: 500px){
+    .service-card{
+        width: 250px;
+    }
+    
+}
+
+/* .....................service cart................ */
+
+.service-cart{
+    height: 300px;
+    border: 1px solid black;
+    padding: 25px;
+    background-color: white;
+}

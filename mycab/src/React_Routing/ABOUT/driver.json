@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "name":"Brijesh Parmar",
+        "driverimg":"./drivers/d1.jpg"
+    },
+
+    {
+        "id":2,
+        "name":"Yuvraj Makwana",
+        "driverimg":"./drivers/d2.jpg"
+    },
+
+    {
+        "id":3,
+        "name":"Jahnavi Patel",
+        "driverimg":"./drivers/d3.jpg"
+    },
+
+    {
+        "id":4,
+        "name":"Darshan Makwana",
+        "driverimg":"./drivers/d5.jpg"
+    }
+
+
+]

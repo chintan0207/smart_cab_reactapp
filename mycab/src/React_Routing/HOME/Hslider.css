@@ -1,0 +1,221 @@
+/* .hs{
+    z-index: -1;
+    position: relative;
+} */
+.hs .p1 {
+
+    height: 550px;
+    width: 100%;
+    background: rgba(0, 0, 0, .7) url('../../../public/forslider/s1.jpg') no-repeat center;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #ffb300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hs h5 {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #ffb300;
+
+}
+
+/* ..................................................................... */
+
+@keyframes scrollDown {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate {
+    animation-name: scrollDown;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+
+  /* ........................................................................ */
+
+.hs  h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    line-height: 110px;
+}
+
+.hs span {
+    color: #ffb300;
+}
+
+.homeaboutbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-top: 15px;
+}
+.homeaboutbtn a{
+    text-decoration: none;
+    color: black;
+}
+
+.homeaboutbtn .homebtn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffb300;
+    color: black;
+    width: 130px;
+    height: 45px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+.hs .p2 {
+
+    height: 550px;
+    width: 100%;
+    background: rgba(0, 0, 0, .7) url('../../../public/forslider/long-s12.jpg') no-repeat center;
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hs .p3 {
+
+    height: 550px;
+    width: 100%;
+    background: rgba(0, 0, 0, .7) url('../../../public/forslider/long-s7.jpg') no-repeat center;
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hs .p4 {
+
+    height: 550px;
+    width: 100%;
+    background: rgba(0, 0, 0, .7) url('../../../public/forslider/long-s8.jpg') no-repeat center;
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hs .p5 {
+
+    height: 550px;
+    width: 100%;
+    background: rgba(0, 0, 0, .7) url('../../../public/forslider/s2.jpg') no-repeat center;
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hs .p6 {
+
+    height: 550px;
+    width: 100%;
+    background: rgba(0, 0, 0, .7) url('../../../public/forslider/s4.jpg') no-repeat center;
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width:850px) {
+
+    .hs .p1,
+    .hs .p2,
+    .hs .p3,
+    .hs .p4,
+    .hs .p5,
+    .hs .p6 {
+        height: 300px;
+    }
+
+    .hs h5 {
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 3px;
+
+    }
+
+    .hs h1 {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 65px;
+    }
+
+    .homeaboutbtn {
+        gap: 25px;
+        margin-top: 10px;
+    }
+
+    .homeaboutbtn .homebtn2 {
+        width: 115px;
+        height: 40px;
+        padding: 8px 8px;
+        border-radius: 30px;
+        font-weight: 700;
+    }
+
+}
+
+@media (max-width:520px) {
+
+    .hs h5 {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 3px;
+
+    }
+
+    .hs h1 {
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    .homeaboutbtn {
+        gap: 25px;
+        margin-top: 8px;
+    }
+
+    .homeaboutbtn .homebtn2 {
+        width: 100px;
+        height: 35px;
+        padding: 5px 5px;
+        border-radius: 30px;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+}

@@ -1,0 +1,98 @@
+/* .tripcard-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.tripcard-container img{
+    height: 250px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.tripcard{
+    text-align: center;
+}
+.tripcard h6{
+    padding: 8px;
+} */
+
+.tripcard-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 25px;
+    margin: 25px;
+}
+
+.trip-card {
+    justify-self: center;
+    width: 250px;
+    text-align: center;
+}
+
+.trip-card img {
+    height: 200px;
+    width: 100%;
+}
+
+@media (max-width:1155px) {
+
+    .tripcard-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .trip-card {
+        width: 280px;
+    }
+    
+    .trip-card img {
+        height: 200px;
+        width: 100%;
+    }
+     
+
+}
+
+
+@media (max-width:980px) {
+
+    .tripcard-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+
+}
+
+@media (max-width:650px) {
+
+    .tripcard-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .trip-card {
+        width: 230px;
+    }
+    
+    .trip-card img {
+        height: 170px;
+    }
+     
+
+}
+@media (max-width:530px) {
+
+    .tripcard-container {
+        grid-template-columns: 1fr;
+    }
+    .trip-card {
+        width: 270px;
+    }
+    
+    .trip-card img {
+        height: 220px;
+    }
+     
+
+}

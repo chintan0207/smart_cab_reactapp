@@ -1,0 +1,234 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b5c2c13d;
+    height: 70px;
+    color: black;
+    padding: 0;
+    /* position: fixed;
+    z-index: 2000; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+
+}
+ .logo h5{
+    
+    margin: 0;
+    color:black ;
+    font-weight: 700;
+}
+.logo span{
+    padding: 7px;
+    background-color: #ffb300;
+    border-radius: 65%;
+    color: black;
+}
+/* .logo h5:hover{
+    color: crimson;
+} */
+.navbar .logo{
+    flex:3;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.navbar .list{
+    flex: 8;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-left: 50px;
+    list-style: none;
+    font-size: 17px;
+}
+
+.list .bookbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 10px;
+    margin-left: 10px;
+    background-color: #ffb300;
+    border-radius: 25px;
+    color: black;
+}
+.list .bookbtn:hover{
+    background-color: black;
+    color: white;
+}
+
+.bookbtn  a{
+    font-weight: bolder;
+
+}
+
+.navbar li a{
+    
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar .l a{
+    padding: 5px 10px;
+}
+.navbar .l a:hover{
+    background-color: #ffb300;
+    border-radius: 20px;
+}
+
+
+.nav-menu{
+    position:fixed;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    color:white;
+    top: 70px;
+    z-index: 1;
+    width: 100%;
+    display: block;
+    background-color: rgb(172, 42, 42);
+    font-size: 17px;
+    text-align: center;
+
+}
+.nav-menu{
+    display: none;
+}
+.navnone{
+    display: none;
+}
+.nav-menu li{
+    font-size: 20px;
+    padding: 7px;
+    
+}
+.nav-menu li:hover{
+    background-color: gray;
+}
+
+.navbar .icon{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.icon .i1 Link{
+   display: flex;
+   flex-direction: row;
+}
+
+.icon .i1{
+    padding-bottom: 3px;
+    font-size: 25px;
+    
+}
+.icon .i1 a{
+    color: black;
+}
+.icon .i2{
+    font-size: 25px;
+
+}
+.icon .i2 a{
+    color: black;
+
+}
+.icon .i3{
+    padding-top: 2px;
+    font-size: 30px;
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .navbar .list{
+        justify-content: center;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .icon .i3{
+      display: block;
+    }
+    .icon .i2{
+        display: none;
+    }
+
+    .navbar .list{
+        display: none;
+    }
+
+    .navbar .icon{
+        padding-right: 10px;
+    }
+    
+    .nav-menu{
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width:450){
+    .navbar .logo{
+        padding-left: 10px ;
+    }
+    .logo h5{
+        font-size: 10px;
+    }
+   
+}
+/* ....................................Home....................................... */
+
+h1{
+    text-align: center;
+}
+
+
+/* .....................................drower......................... */
+
+.drawer{
+    z-index: -1;
+}
+
+.drower-list{
+    display: flex;
+    flex-direction: column;
+    display: block;
+    text-align: center;
+
+
+}
+.drower-list li{
+    display: flex;
+    justify-content: flex-start;
+    padding: 7px 70px;
+    /* background-color: cadetblue; */
+
+}
+.drower-list a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+

@@ -1,0 +1,276 @@
+/* .....................................login........................... */
+.l1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    height: 600px;
+    /* border: 1px solid black; */
+    /* background: rgba(0,0,0,.5) url('../../public/car/city3.jpg') no-repeat center ; */
+    background-color:#fdae00;
+    background-size: cover;
+    background-blend-mode: darken;
+    /* background: url("cab.avif")no-repeat center;
+    background-size: cover; */
+
+}
+.l1 h1{
+   margin: 25px;
+}
+.loginf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+
+    
+}
+/* .........................first div....................... */
+
+.loginf .tfield{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* border: 1px solid black; */
+
+
+
+}
+.emailpass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+    width: 100%;
+}
+.tfield .t1{
+    width: 80%;
+}
+.tfield a{
+    text-decoration: none;
+    color:blue;
+}
+
+.loginbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 0px;
+    width: 75%;
+    margin-left: 10px;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    border: black;
+    opacity: 1;
+    margin-top: 30px;
+
+}
+.loginbtn:hover{
+  opacity: .9;
+}
+.googlebtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 7px 0px;
+    width: 75%;
+    margin-left: 10px;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    opacity: 1;
+
+}
+.googlebtn:hover{
+    opacity: .9;
+
+}
+.googlebtn img{
+    height:80%;
+    width: 5%;
+}
+
+.tfield .google{
+    /* border: 1px solid black; */
+    width: 80%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+}
+p{
+    margin: 0px;
+}
+.google img{
+    margin-left: 15px;
+    height:80%;
+    width: 8%;
+}
+.gbtn{
+    width: 70%;
+
+}
+
+@media(max-width: 1024px){
+    .loginf{
+        
+        width: 50%;
+    }
+    .emailpass{
+        width: 100%;
+    }
+}
+
+@media(max-width: 800px){
+    .loginf{
+        
+        width: 65%;
+    }
+    .emailpass{
+        width: 85%;
+    }
+}
+@media(max-width: 550px){
+    .loginf{
+        
+        width: 90%;
+    }
+    .emailpass{
+        width: 110%;
+    }
+}
+
+
+/* ............................register...................................... */
+
+
+.R1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    min-height: 600px;
+    /* background: rgba(0,0,0,.5) url('../../public/car/city2.jpg') no-repeat center ; */
+    background-color: #fdae00;
+    background-size: cover;
+    background-blend-mode: darken;
+    /* align-items: center; */
+    /* border: 1px solid black; */
+    /* background-color: #f8d73bf0; */
+    padding: 30px;
+    
+}
+
+.registerf{
+    display: flex;
+    width: 50%;
+    /* height: 600px; */
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* border:1px solid black ; */
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    
+}
+
+.registerbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 0px;
+    width: 60%;
+    margin-left: 10px;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    border: black;
+    opacity: 1;
+
+}
+.registerbtn:hover{
+    opacity: .9;
+}
+
+
+.registerf .arrowback{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 10px;
+    color: black;
+}
+.arrowback a{
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
+.registerf h1{
+    padding: 0px 10px 10px 10px;
+}
+.rtext{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    flex-direction: column;
+}
+
+.rtext .t1{
+    width: 65%;
+}
+
+@media(max-width: 1024px){
+    .registerf{
+        
+        width: 70%;
+    }
+    .rtext .t1{
+        width: 80%;
+    }
+}
+@media(max-width: 600px){
+    .registerf{
+        
+        width: 80%;
+    }
+    .rtext .t1{
+        width: 80%;
+    }
+}
+
+@media(max-width: 750px){
+    .registerf{
+        
+        width: 85%;
+    }
+    .rtext .t1{
+        width: 85%;
+    }
+}
+@media(max-width: 420px){
+    .registerf{ 
+        width:97%;
+    }
+    .R1{
+        padding: 50px 10px;
+    }
+}
+
+
